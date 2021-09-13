@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjNDRDQzAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzMgMzMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMzIDMzIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMTYuNDk5LDYuNDc1Yy0yLjk5LDAtNS40MTYsMi40MjQtNS40MTYsNS40MThjMCwyLjk5MiwyLjQyNiw1LjQxNiw1LjQxNiw1LjQxNmMyLjk5MywwLDUuNDE5LTIuNDI0LDUuNDE5LTUuNDE2ICBDMjEuOTE4LDguODk4LDE5LjQ5Miw2LjQ3NSwxNi40OTksNi40NzV6IE0xNy4wNDEsMTQuOTEydjEuMjI5aC0wLjc2NXYtMS4yMTljLTAuODM5LTAuMDctMS42MTEtMC40MzgtMi4xNjktMC45NDlsMC40NDUtMC44ODkgIGMwLjYyNSwwLjU3NCwxLjQwOCwwLjg4OSwyLjA2MSwwLjg4OWMwLjcxMywwLDEuMTQyLTAuMjcxLDEuMTQyLTAuNzRjMC0xLjM1OS0zLjI5MS0wLjYtMy4yOTEtMi43NjggIGMwLTAuOTMyLDAuNzE0LTEuNTQ5LDEuODEzLTEuNjdWNy42NTRsMC43NjUtMC4wMTJ2MS4xNDNjMC42NiwwLjA2MSwxLjI5NywwLjI4NywxLjc3NCwwLjYwN2wtMC40MjcsMC45MDggIGMtMC42NjEtMC40LTEuMzIxLTAuNTY2LTEuNzg1LTAuNTY2Yy0wLjU5OSwwLTAuOTksMC4yMjctMC45OSwwLjYzNWMwLDEuMzMsMy4yODksMC42MTcsMy4yNzksMi44MTEgIEMxOC44OTMsMTQuMTQ1LDE4LjE0NiwxNC43ODEsMTcuMDQxLDE0LjkxMnoiPjwvcGF0aD48cG9seWdvbiBwb2ludHM9IjI1LjczNywxNi45NzcgMTkuMDAxLDE4LjgzOCAxNC40MDEsMjIuMDQ5IDkuNTMzLDE5LjI1IDcuMjY0LDIyLjMxNCA3LjI2NCwyNC4wOCA5LjgzOSwyMC41NTUgMTQuNDU1LDIzLjIwNyAgIDE5LjM0NCwxOS43NTggMjUuNzM3LDE3Ljk5ICI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iNy4yNjQsMjYuNTA0IDI1LjczNywyNi41MDQgMjUuNzM3LDE5LjQ3MSAyMC4wMDEsMjAuNDcxIDE0LjgzOCwyNC4zODUgMTAuMDQyLDIyLjI1NCA3LjI2NCwyNS4zOTEgIj48L3BvbHlnb24+PHBhdGggZD0iTTI3LjQ4LDAuNUg1LjUyYy0xLjEsMC0yLDAuOS0yLDJ2MjhjMCwxLjEsMC45LDIsMiwySDI3LjQ4YzEuMSwwLDItMC45LDItMnYtMjhDMjkuNDgsMS40LDI4LjU4LDAuNSwyNy40OCwwLjV6ICAgTTE2LjUsMzEuNDM4Yy0wLjY3MywwLTEuMjE5LTAuNTQ1LTEuMjE5LTEuMjE5YzAtMC42NzIsMC41NDYtMS4yMTksMS4yMTktMS4yMTlzMS4yMTksMC41NDcsMS4yMTksMS4yMTkgIEMxNy43MTksMzAuODkzLDE3LjE3MywzMS40MzgsMTYuNSwzMS40Mzh6IE0yNi43MjQsMjcuNzVINi4yNzZWMy4yNWgyMC40NDdWMjcuNzV6Ij48L3BhdGg+PC9zdmc+">
+        <script src="app.js"></script>
+        <title>stocks4me ◉ Dashboard</title>
+        <!--Credits
+            https://thenounproject.com/search/?q=stock+market&i=3349943 favicon
+        -->
+    </head>
+    <body>
+        <nav class="navbar navbar-dark py-3" style="background-color: #50C878;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html    "><img src="img/logo.png" style="width: 50px"/>stocks4me</a>
+                    <div class="navbar-nav" style="flex-direction: row;">
+                      <a class="nav-link active" style="padding:10px;" href="index.html">Home</a>
+                      <a class="nav-link" style="padding:10px;" aria-current="page" href="dashboard.html">Dashboard</a>
+                      <a class="nav-link" style="padding:10px;" href="https://github.com">About</a>
+                    </div>
+                </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <img class="placeholder_chart" src="img/chart.png" alt="stock chart">
+                </div>
+                <div class="col-2" style="padding-top: 25px;">
+                    <div style="border: 5px solid green; padding: 10px;">
+                        Results of the chart.
+                        <br>
+                        AMC: 260
+                        <br>
+                        APL: 600 
+                        <br>
+                        AMZ: 670
+                        <br>
+                        AMD: 500
+                        <br>
+                        Test
+                        <br>
+                        Foo
+                        <br>
+                        Test
+                        <br>
+                        Foo
+                        <br>
+                        Test
+                        <br>
+                        Foo
+                        <br>
+                    </div>
+                    <div class="md-form mt-0" style="margin: auto; width: 100%;">
+                        <input class="form-control" type="text" placeholder="Search for stock" aria-label="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <div style="border: 5px solid green; padding: 10px;">
+                <div class="col-4" style="margin: auto; width: 50%;">
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                </div>
+                <div class="col-4" style="margin: auto; width: 50%;">
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                </div>
+                <div class="col-4" style="margin: auto; width: 50%;">
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                    <button>Stock Toggle</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
